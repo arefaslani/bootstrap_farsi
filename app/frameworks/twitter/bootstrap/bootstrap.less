@@ -1,32 +1,3 @@
-# BootstrapFarsi(3.2)
-
-Farsi(right to left) support for twitter bootstrap. Less files are extracted from [izer0x/bootstrap-3-arabic](https://github.com/izer0x/bootstrap-3-arabic/).
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'bootstrap_farsi'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install bootstrap_farsi
-
-## Usage
-
-create a less file in your app/assets/stylesheets directory and simply import twitter bootstrap like this:
-```css
-@import 'twitter/bootstrap/bootstrap';
-```
-
-or import whatever you need:
-```css
 // bi-app
 @import "bi-app/bi-app-rtl";
 
@@ -80,21 +51,3 @@ or import whatever you need:
 // Utility classes
 @import "utilities.less";
 @import "responsive-utilities.less";
-```
-
-and for importing bootstrap.js simply do
-```javascript
-//=require twitter/bootstrap
-```
-in application.js or for importing optional packages:
-```javascript
-//=require twitter/bootstrap/package_name
-```
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/bootstrap_farsi/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
