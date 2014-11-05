@@ -1,6 +1,6 @@
-# BootstrapFarsi
+# BootstrapFarsi(3.2)
 
-TODO: Write a gem description
+Farsi(right to left) support for twitter bootstrap. Less files are extracted from [izer0x/bootstrap-3-arabic](https://github.com/izer0x/bootstrap-3-arabic/).
 
 ## Installation
 
@@ -20,7 +20,76 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+create a less file in your app/assets/stylesheets directory and simply import twitter bootstrap like this:
+```css
+@import 'twitter/bootstrap/bootstrap';
+```
+
+or import whatever you need:
+```css
+// bi-app
+@import "bi-app/bi-app-rtl";
+
+// Core variables and mixins
+@import "variables.less";
+@import "mixins.less";
+
+// Reset and dependencies
+@import "normalize.less";
+@import "print.less";
+@import "glyphicons.less";
+
+// Core CSS
+@import "scaffolding.less";
+@import "type.less";
+@import "code.less";
+@import "grid.less";
+@import "tables.less";
+@import "forms.less";
+@import "buttons.less";
+
+// Components
+@import "component-animations.less";
+@import "dropdowns.less";
+@import "button-groups.less";
+@import "input-groups.less";
+@import "navs.less";
+@import "navbar.less";
+@import "breadcrumbs.less";
+@import "pagination.less";
+@import "pager.less";
+@import "labels.less";
+@import "badges.less";
+@import "jumbotron.less";
+@import "thumbnails.less";
+@import "alerts.less";
+@import "progress-bars.less";
+@import "media.less";
+@import "list-group.less";
+@import "panels.less";
+@import "responsive-embed.less";
+@import "wells.less";
+@import "close.less";
+
+// Components w/ JavaScript
+@import "modals.less";
+@import "tooltip.less";
+@import "popovers.less";
+@import "carousel.less";
+
+// Utility classes
+@import "utilities.less";
+@import "responsive-utilities.less";
+```
+
+and for importing bootstrap.js simply do
+```javascript
+//=require twitter/bootstrap
+```
+in application.js or for importing optional packages:
+```javascript
+//=require twitter/bootstrap/package_name
+```
 
 ## Contributing
 
