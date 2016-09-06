@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["arefaslani@gmail.com"]
   spec.summary       = %q{Twitter Bootstrap less right to left.}
   spec.description   = %q{Twitter Bootstrap less with for rtl languages e.g. persian or arabic.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/arefaslani/bootstrap_farsi"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

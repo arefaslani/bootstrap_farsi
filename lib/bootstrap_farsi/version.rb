@@ -1,3 +1,3 @@
 module BootstrapFarsi
-  VERSION = "3.2.0"
+  VERSION = "3.3.6"
 end

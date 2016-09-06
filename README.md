@@ -1,4 +1,4 @@
-# BootstrapFarsi(3.2)
+# BootstrapFarsi(3.3.6)
 
 Farsi(right to left) support for twitter bootstrap. Less files are extracted from [izer0x/bootstrap-3-arabic](https://github.com/izer0x/bootstrap-3-arabic/).
 
